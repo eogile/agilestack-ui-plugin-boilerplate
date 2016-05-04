@@ -1,6 +1,8 @@
 machine:
   services:
     - docker
+  node:
+    version: 5.7.0
   environment:
     PROJECT_PARENT: "$HOME/.go_project/src/github.com/$CIRCLE_PROJECT_USERNAME"
     PROJECT_PATH: "$PROJECT_PARENT/$CIRCLE_PROJECT_REPONAME"
@@ -9,6 +11,7 @@ dependencies:
   pre:
     - docker version
     - go version
+    - npm version
 
   override:
     - mkdir -p $PROJECT_PARENT
