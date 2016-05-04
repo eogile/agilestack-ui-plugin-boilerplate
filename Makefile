@@ -1,4 +1,4 @@
-NAME		= plugin-ui-boilerplate
+NAME		= ui-plugin-boilerplate
 IMAGE_NAME	= agilestack-$(NAME)
 
 GO_FILES=*.go

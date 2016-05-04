@@ -7,4 +7,5 @@ js/bundle.min.js
 build
 npm-debug.log
 /build/
-plugin-ui-boilerplate
+/plugin-ui-boilerplate
+/ui-plugin-boilerplate
